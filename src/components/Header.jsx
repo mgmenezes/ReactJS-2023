@@ -1,9 +1,10 @@
 import styles from "./Header.module.css";
+import img from "../images/Ignite-logo.svg";
 
-export function Header() {
+export const HeaderComponent = ({}) => {
   return (
     <header className={styles.header}>
-      <strong>Ignite Feed</strong>;
+      <img src={img} alt="logotipo" />
     </header>
   );
-}
+};
