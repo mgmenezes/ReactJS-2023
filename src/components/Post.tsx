@@ -8,7 +8,7 @@ export function Post() {
         <div className={styles.author}>
           <img
             className={styles.avatar}
-            src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=50"
+            src="https://avatars.githubusercontent.com/u/28824607?v=4"
           />
           <div className={styles.authorInfo}>
             <strong>Moisés Menezes</strong>
@@ -27,15 +27,14 @@ export function Post() {
         <p>
           Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
-          👉
         </p>
         <p>
           {" "}
-          <a>jane.design/doctorcare</a>
+          <a>👉 jane.design/doctorcare</a>
         </p>
         <p>
           {" "}
-          <a href="">#novoprojeto #nlw #rocketseat</a>
+          <a>#novoprojeto</a> <a>#nlw</a> <a>#rocketseat</a>
         </p>
       </div>
     </article>
