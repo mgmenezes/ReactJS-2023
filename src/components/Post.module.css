@@ -123,3 +123,7 @@ justify-content: space-between;
   outline: transparent;
   box-shadow: 0 0 0 2px var(--green-300);
 }
+
+.commentList {
+  margin-top: 2rem
+}
