@@ -1,4 +1,4 @@
-import { ThumbsUp, Trash } from "phosphor-react";
+import { Circle, ThumbsUp, Trash } from "phosphor-react";
 import React from "react";
 import styles from "./Comment.module.css";
 
@@ -19,15 +19,15 @@ export const Comment = ({}) => {
               </time>
             </div>
             <button title="Apagar comentario">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
-          <p>Muito bom Parabens</p>
+          <p>Muito bom Devon, Parabens! </p>
         </div>
-        <footer>
+        <footer className={styles.commentBox}>
           <button>
             <ThumbsUp />
-            Aplaudir <span>22</span>
+            Aplaudir<span>22</span>
           </button>
         </footer>
       </div>
