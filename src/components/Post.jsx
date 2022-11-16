@@ -1,3 +1,4 @@
+import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
@@ -6,10 +7,8 @@ export function Post() {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src="https://avatars.githubusercontent.com/u/28824607?v=4"
-          />
+          <Avatar src="https://avatars.githubusercontent.com/u/28824607?v=4" />
+          {/* Lembrando que hasBorder foi o nome que eu decidi pra propriedade do componente */}
           <div className={styles.authorInfo}>
             <strong>Moisés Menezes</strong>
             <span>Web Developer</span>

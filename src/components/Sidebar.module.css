@@ -8,15 +8,6 @@
   flex-direction: column;/* um ficar abaixo do outro*/
   align-items: center;
 }
-.avatar{
-  width: 3.75rem;
-  height: 3.75rem;
-  border-radius: 8px;
-  border: 2px solid var(--gray-800);
-  outline: 4px solid var(--green-500);
-  margin-top: calc(0px - 1.5rem - 6px);
-  box-sizing: initial;
-}
 
 .profile strong {
   margin-top: 1rem;
